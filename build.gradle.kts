@@ -22,6 +22,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	runtimeOnly("org.postgresql:postgresql")
+	runtimeOnly("com.h2database:h2")
 	// http://localhost:8080/swagger-ui/index.html
 	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.8")
 //	// https://mvnrepository.com/artifact/com.google.cloud.sql/postgres-socket-factory
